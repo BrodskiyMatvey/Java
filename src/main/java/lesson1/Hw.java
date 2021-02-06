@@ -22,8 +22,8 @@ public class Hw {
         boolean varH = true;
     }
 
-    public static int exercise3(int a, int b, int c, int d) {
-        int result = a * (b + (c / d));
+    public static double exercise3(double a, double b, double c, double d) {
+        double result = a * (b + (c / d));
         System.out.println(result);
         return result;
     }
