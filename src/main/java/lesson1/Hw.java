@@ -42,11 +42,13 @@ public class Hw {
     }
 
     public static void exercise5(int a) {
-        if (a < 0) {
-            System.out.println("Число - отрицательное");
-        } else if (a >= 0) {
-            System.out.println("Число - положительное");
-        }
+//        if (a < 0) {
+//            System.out.println("Число - отрицательное");
+//        } else if (a >= 0) {
+//            System.out.println("Число - положительное");
+//        }
+        String word = (a < 0) ? "negative" : "positive";
+        System.out.printf("This number(%d) is %s%n", a, word);
     }
 
     public static boolean exercise6(int a) {
@@ -60,7 +62,8 @@ public class Hw {
     }
 
     public static void exercise7(String name) {
-        System.out.println("Привет, " + name + "!");
+//        System.out.println("Привет, " + name + "!");
+        System.out.printf("Hello, %s%n", name);
     }
 
     public static void exercise8(int year) {
